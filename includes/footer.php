@@ -6,7 +6,7 @@
       <div class="col-12 col-md-4 mb-3 mb-md-0 text-center text-md-start">
         <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-2">
           <span class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center me-2" style="width: 44px; height: 44px;">
-            <i class="fas fa-bicycle text-white"></i>
+            <img src="https://raw.githubusercontent.com/JanithSheshan/EzBikez/refs/heads/main/public/assets/img/about-bikes.png" alt="EzBikez Logo" style="width: 50px; height: 50px;">
           </span>
           <span class="fw-bold fs-4">EzBikez</span>
         </div>

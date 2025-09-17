@@ -26,26 +26,26 @@ session_start();
   <meta property="og:description" content="Explore Sri Lanka with ease. Rent premium scooters and bikes in Unawatuna at affordable prices. Easy booking, trusted service, and 5-star reviews.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ezbikez.com/">
-  <meta property="og:image" content="https://ezbikez.com/public/assets/images/og-image.jpg">
+  <meta property="og:image" content="https://raw.githubusercontent.com/JanithSheshan/EzBikez/refs/heads/main/public/assets/img/about-bikes.png">
   <meta property="og:locale" content="en_US">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="EzBikez | Best Bike & Scooter Rentals in Sri Lanka">
   <meta name="twitter:description" content="Discover the easiest way to rent bikes in Unawatuna, Sri Lanka. Affordable rates, reliable service, and trusted by travelers.">
-  <meta name="twitter:image" content="https://ezbikez.com/public/assets/images/og-image.jpg">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/JanithSheshan/EzBikez/refs/heads/main/public/assets/img/about-bikes.png">
   <meta name="twitter:site" content="@ezbikez">
 
   <!-- Favicons -->
   <!-- Favicons -->
-  <link href="/img/favicon.png" rel="icon">
-  <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://raw.githubusercontent.com/JanithSheshan/EzBikez/refs/heads/main/includes/img/favicon.png" rel="icon">
+  <link href="https://raw.githubusercontent.com/JanithSheshan/EzBikez/refs/heads/main/includes/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Canonical -->
   <link rel="canonical" href="https://ezbikez.com/">
 
   <!-- Preload / Performance -->
-  <link rel="preload" as="image" href="https://ezbikez.com/public/assets/images/og-image.jpg">
+  <link rel="preload" as="image" href="https://raw.githubusercontent.com/JanithSheshan/EzBikez/refs/heads/main/public/assets/img/about-bikes.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 

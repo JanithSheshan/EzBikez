@@ -81,28 +81,28 @@ require_once '../includes/nav.php';
                 <p class="lead">Meet the people behind EzBikez</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="card text-center">
-                    <img src="/ezbikez/public/assets/img/team/team1.jpg" class="card-img-top" alt="Team Member">
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4 d-flex align-items-stretch">
+                <div class="card text-center w-100">
+                    <img src="/ezbikez/public/assets/img/team/team1.png" class="card-img-top mx-auto d-block" alt="Team Member" style="width:120px; height:120px; object-fit:cover; border-radius:50%; margin-top:20px;">
                     <div class="card-body">
                         <h5 class="card-title">Janith Aththanayaka</h5>
                         <p class="card-text">Co-Founder & Manager</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
-                <div class="card text-center">
-                    <img src="/ezbikez/public/assets/img/team/team2.jpg" class="card-img-top" alt="Team Member">
+            <div class="col-md-4 mb-4 d-flex align-items-stretch">
+                <div class="card text-center w-100">
+                    <img src="/ezbikez/public/assets/img/team/team2.png" class="card-img-top mx-auto d-block" alt="Team Member" style="width:120px; height:120px; object-fit:cover; border-radius:50%; margin-top:20px;">
                     <div class="card-body">
                         <h5 class="card-title">Malsha Malinda</h5>
                         <p class="card-text">Co-Founder</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
-                <div class="card text-center">
-                    <img src="/ezbikez/public/assets/img/team/team3.jpg" class="card-img-top" alt="Team Member">
+            <div class="col-md-4 mb-4 d-flex align-items-stretch">
+                <div class="card text-center w-100">
+                    <img src="/ezbikez/public/assets/img/team/team3.png" class="card-img-top mx-auto d-block" alt="Team Member" style="width:120px; height:120px; object-fit:cover; border-radius:50%; margin-top:20px;">
                     <div class="card-body">
                         <h5 class="card-title">Nipun Lakshitha</h5>
                         <p class="card-text">Co-Founder</p>
