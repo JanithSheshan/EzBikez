@@ -1,4 +1,6 @@
 <?php
+// No whitespace before this line
+ob_start(); // Start output buffering to prevent header errors
 session_start();
 ?>
 <!DOCTYPE html>

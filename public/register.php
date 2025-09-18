@@ -105,6 +105,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     <button type="button" class="btn btn-outline-secondary" id="suggest-password-btn" tabindex="-1" title="Suggest a strong password">
                                         <i class="bi bi-lightning-fill"></i>
                                     </button>
+                                    <button type="button" class="btn btn-outline-secondary" id="toggle-password" tabindex="-1" title="Show/Hide password">
+                                        <i class="bi bi-eye" id="toggle-password-icon"></i>
+                                    </button>
                                 </div>
                                 <small id="suggested-password" class="form-text text-muted" style="display:none; cursor:pointer;"></small>
                             </div>
@@ -128,13 +131,48 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     suggested.style.display = 'none';
                                 };
                             });
+
+                            // Password view toggle
+                            document.getElementById('toggle-password').addEventListener('click', function() {
+                                const pwdField = document.getElementById('password');
+                                const icon = document.getElementById('toggle-password-icon');
+                                if (pwdField.type === 'password') {
+                                    pwdField.type = 'text';
+                                    icon.classList.remove('bi-eye');
+                                    icon.classList.add('bi-eye-slash');
+                                } else {
+                                    pwdField.type = 'password';
+                                    icon.classList.remove('bi-eye-slash');
+                                    icon.classList.add('bi-eye');
+                                }
+                            });
                             </script>
                             
                             <div class="col-md-6 mb-3">
                                 <label for="confirm_password" class="form-label">Confirm Password *</label>
-                                <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
+                                <div class="input-group">
+                                    <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
+                                    <button type="button" class="btn btn-outline-secondary" id="toggle-confirm-password" tabindex="-1" title="Show/Hide password">
+                                        <i class="bi bi-eye" id="toggle-confirm-password-icon"></i>
+                                    </button>
+                                </div>
                             </div>
-                        </div>
+                            <script>
+                            // Confirm password view toggle
+                            document.getElementById('toggle-confirm-password').addEventListener('click', function() {
+                                const pwdField = document.getElementById('confirm_password');
+                                const icon = document.getElementById('toggle-confirm-password-icon');
+                                if (pwdField.type === 'password') {
+                                    pwdField.type = 'text';
+                                    icon.classList.remove('bi-eye');
+                                    icon.classList.add('bi-eye-slash');
+                                } else {
+                                    pwdField.type = 'password';
+                                    icon.classList.remove('bi-eye-slash');
+                                    icon.classList.add('bi-eye');
+                                }
+                            });
+                            </script>
                         
                         <div class="mb-3">
                             <label for="phone" class="form-label">Phone Number</label>
